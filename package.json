@@ -1,0 +1,22 @@
+{
+  "name": "hotelweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "pnpm run --parallel start:dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "pino": "^9.1.0",
+    "touch": "^3.1.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/uuid": "^9.0.8"
+  }
+}
